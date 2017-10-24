@@ -38,7 +38,8 @@ function _phoneGapSettings() {
         "LoadUrlTimeoutValue": "20000",
         "AndroidPersistentFileLocation": "Internal",
         "android-build-tool": "gradle",
-        "windows-appx-target": "uap"
+        "windows-appx-target": "uap",
+        "windows-target-version": "10.0"
     },
     "plugins": {
         "cordova-plugin-device": "npm",
