@@ -15,9 +15,9 @@ function _phoneGapSettings() {
         "show-splash-screen-spinner": "true",
         "auto-hide-splash-screen": "true",
         "disable-cursor": "false",
-        "android-minSdkVersion": "14",
+        "android-minSdkVersion": "16",
         "android-installLocation": "internalOnly",
-        "phonegap-version": "cli-6.5.0",
+        "phonegap-version": "cli-7.0.1",
         "FadeSplashScreen": "true",
         "FadeSplashScreenDuration": "2",
         "EnableViewportScale": "true",
@@ -39,27 +39,27 @@ function _phoneGapSettings() {
         "AndroidPersistentFileLocation": "Internal",
         "android-build-tool": "gradle",
         "windows-appx-target": "uap",
-        "windows-target-version": "10.0"
+        "windows-target-version": "10.0",
+        "pgb-builder-version": "1"
     },
     "plugins": {
+        "cordova-sqlite-ext": "npm",
+        "https://github.com/Rohfosho/CordovaCallNumberPlugin.git": "git",
+        "cordova-sms-plugin": "npm",
+        "cordova-plugin-camera": "npm",
+        "cordova-plugin-console": "npm",
+        "cordova-plugin-media-capture": "npm",
+        "cordova-plugin-contacts": "npm",
         "cordova-plugin-device": "npm",
-        "cordova-plugin-file": "npm",
         "cordova-plugin-network-information": "npm",
         "cordova-plugin-dialogs": "npm",
         "cordova-plugin-splashscreen": "npm",
+        "phonegap-plugin-barcodescanner": "npm",
+        "cordova-media-with-compression": "npm",
         "pushwoosh-pgb-plugin": "npm",
         "cordova-plugin-statusbar": "npm",
         "cordova-plugin-x-toast": "npm",
-        "cordova-plugin-whitelist": "npm",
-        "cordova-sqlite-ext": "npm",
-        "cordova-plugin-file-transfer": "npm",
-        "phonegap-plugin-barcodescanner": "npm",
-        "cordova-plugin-camera": "npm",
-        "cordova-plugin-media-capture": "npm",
-        "https://github.com/Rohfosho/CordovaCallNumberPlugin.git": "git",
-        "cordova-media-with-compression": "npm",
-        "cordova-sms-plugin": "npm",
-        "cordova-plugin-contacts": "npm"
+        "cordova-plugin-whitelist": "npm"
     }
 };
 }

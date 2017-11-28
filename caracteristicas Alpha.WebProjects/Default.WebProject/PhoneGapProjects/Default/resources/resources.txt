@@ -1,5 +1,5 @@
 {
-	"_id": "2854080",
+	"_id": "2900995",
 	"_icon": "C:\\Users\\Desarrollador\\Documents\\Prototipo Nubison division equipos\\dimacofi.WebProjects\\Default.WebProject\\img\\isotipo.png",
 	"_ssL": "C:\\Users\\Desarrollador\\Documents\\Prototipo Nubison division equipos\\dimacofi.WebProjects\\Default.WebProject\\img\\landscapeSplashScreen.png",
 	"_ssP": "C:\\Users\\Desarrollador\\Documents\\Prototipo Nubison division equipos\\dimacofi.WebProjects\\Default.WebProject\\img\\portraitSplashScreen.png",
@@ -33,5 +33,6 @@
 	"_windowsBuildFlag": false,
 	"launchAppManager": true,
 	"_sqlitedbdefined": false,
-	"cliProjectFolder": ""
+	"cliProjectFolder": "",
+	"_phonegapBuilderVersion": "1"
 }
