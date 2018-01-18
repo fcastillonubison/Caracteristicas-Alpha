@@ -59,7 +59,9 @@ function _phoneGapSettings() {
         "pushwoosh-pgb-plugin": "npm",
         "cordova-plugin-statusbar": "npm",
         "cordova-plugin-x-toast": "npm",
-        "cordova-plugin-whitelist": "npm"
+        "cordova-plugin-whitelist": "npm",
+        "cordova-plugin-android-fingerprint-auth": "npm",
+        "phonegap-nfc": "npm"
     }
 };
 }
